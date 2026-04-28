@@ -9,7 +9,9 @@ import logo from './assets/not-av.jpg';
 // }
 
 function HelloWorld() {
-  return  <img src={logo} alt="Company Logo" width="100px" />;
+  return  <a href="./bio-tech.html">
+    <img src={logo} alt="Company Logo" width="100px" />
+  </a> ;
 }
 
 const root = createRoot(document.getElementById('root'));
