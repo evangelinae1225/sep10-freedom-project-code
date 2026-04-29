@@ -9,7 +9,7 @@ import logo from './assets/not-av.jpg';
 // }
 
 function HelloWorld() {
-  return  <a href="./bio-tech.html">
+  return  <a href="./large-tech.html">
     <img src={logo} alt="Company Logo" width="100px" />
   </a> ;
 }
