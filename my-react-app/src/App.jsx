@@ -9,9 +9,12 @@ import logo from './assets/not-av.jpg';
 // }
 
 function HelloWorld() {
-  return  <a href="./large-tech.html">
-    <img src={logo} alt="Company Logo" width="100px" />
-  </a> ;
+  return  <div> 
+    <a href="./large-tech.html"> <img src={logo} alt="Company Logo" width="100px" /> </a>
+    <a href="./bio-tech.html"> <img src={logo} alt="Company Logo" width="100px" /> </a>
+    <a href="./sim-tech.html"> <img src={logo} alt="Company Logo" width="100px" /> </a>
+    <a href="./future-tech.html"> <img src={logo} alt="Company Logo" width="100px" /> </a>
+   </div>;
 }
 
 const root = createRoot(document.getElementById('root'));
