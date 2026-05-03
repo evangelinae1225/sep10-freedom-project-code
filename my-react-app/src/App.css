@@ -1,4 +1,18 @@
 body { 
   color:white
 }
+
+img {
+  margin: 20px;
+  background-color: black;
+  
+}
  
+.glow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+img:hover {
+  /* Syntax: h-offset v-offset blur spread color */
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+}
