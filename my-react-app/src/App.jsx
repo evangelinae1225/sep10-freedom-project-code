@@ -18,24 +18,27 @@ import freedom from './assets/logos/freedomlogo2.png';
 
 function HelloWorld() {
   return  <div className="container text-center"> 
-    <div>
-      <a href="./index.html"> <img src={freedom} alt="Freedom Project Logo" width="250px" /> </a>
-    </div>
     <div className="row m-md-2">
-      <div className="col-3">
-      <a href="./large-tech.html"> <img src={large} alt="Large Technology" width="250px" /> </a>
+      <div className="col-8 col-sm-12 col-md-5 col-md-12">
+      <a href="./index.html"> <img src={freedom} alt="Freedom Project Logo" width="250px" className = "mx-auto d-block"/> </a>
+      </div>
+    </div>
+
+    <div className="row m-md-2">
+      <div className=" col-8 col-sm-12 col-md-5 col-lg-3 ">
+      <a href="./large-tech.html"> <img src={large} alt="Large Technology" width="250px" className = "mx-auto d-block"/> </a>
       </div>
 
-      <div className="col-3">
-      <a href="./bio-tech.html"> <img src={bio} alt="Bio Technology" width="250px" /> </a>
+      <div className=" col-8 col-sm-12  col-md-5 col-lg-3 ">
+      <a href="./bio-tech.html"> <img src={bio} alt="Bio Technology" width="250px" className = "mx-auto d-block"/> </a>
       </div>
 
-      <div className="col-3">
-      <a href="./sim-tech.html"> <img src={sim} alt="Simulation Technology" width="250px" /> </a>
+      <div className=" col-8  col-sm-12 col-md-5 col-lg-3 ">
+      <a href="./sim-tech.html"> <img src={sim} alt="Simulation Technology" width="250px" className = "mx-auto d-block"/> </a>
       </div>
-      
-      <div className="col-3">
-      <a href="./future-tech.html"> <img src={future} alt="Future Technology" width="250px" /> </a>
+
+      <div className="col-8 col-sm-12 col-md-5 col-lg-3">
+      <a href="./future-tech.html"> <img src={future} alt="Future Technology" width="250px" className = "mx-auto d-block"/> </a>
       </div>
       
     </div>
