@@ -25,15 +25,17 @@ function HelloWorld() {
       <div className="col-3">
       <a href="./large-tech.html"> <img src={large} alt="Large Technology" width="250px" /> </a>
       </div>
+
+      <div className="col-3">
+      <a href="./bio-tech.html"> <img src={bio} alt="Bio Technology" width="250px" /> </a>
+      </div>
+
+      <div className="col-3">
+      <a href="./sim-tech.html"> <img src={sim} alt="Simulation Technology" width="250px" /> </a>
+      </div>
       
       <div className="col-3">
       <a href="./future-tech.html"> <img src={future} alt="Future Technology" width="250px" /> </a>
-      </div>
-       <div className="col-3">
-      <a href="./bio-tech.html"> <img src={bio} alt="Bio Technology" width="250px" /> </a>
-      </div>
-      <div className="col-3">
-      <a href="./sim-tech.html"> <img src={sim} alt="Simulation Technology" width="250px" /> </a>
       </div>
       
     </div>
