@@ -72,7 +72,31 @@ function HelloWorld() {
           </Link>
         </div>
       </div>
+      
+      <h1 className="mt-4"> Overview </h1>
+      <div className="container-fluid d-flex justify-content-center align-items-center">
+        <div className="row justify-content-center">
+          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(255,255,255,0.1)", color: "white" }}>
+            <div className="card-body">
+              <p className="card-text">Humans have always wanted to travel and see the stars, but after humans sent the first Satellite named "Sputnik", space seemed closer to our reach.</p>
+            </div>
+          </div>
+
+          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(255,255,255,0.1)", color: "white" }}>
+            <div className="card-body">
+              <p className="card-text">Space Exploration has developed exponentially over the years, not only have humans visited the moon, but we are also trying to visit other space objects, such as Mars. We as well developed high tech telescopes to look at the universe around us.</p>
+            </div>
+          </div>
+
+          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(255,255,255,0.1)", color: "white" }}>
+            <div className="card-body">
+              <p className="card-text">Space Exploration is always learning something new about the stars around us, and new technologies are being invented to reach our goals and satisfy our curiosity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    
   );
 }
 
