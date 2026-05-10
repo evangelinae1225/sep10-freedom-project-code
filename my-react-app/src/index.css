@@ -5,13 +5,13 @@ h1 {
 }
    
 
-
+/* 
 body { 
     background-color: #ffffff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2xyL25hc2EwMDAwMS1pbWFnZS5qcGc.jpg");
     background-size: cover;
     color: #ffffff;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;} */
 
 .card {
 	margin: 20px;

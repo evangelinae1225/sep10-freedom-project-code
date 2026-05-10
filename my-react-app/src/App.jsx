@@ -38,6 +38,7 @@ function App() {
 // 1. The "Homepage" Content
 function HelloWorld() {
   return (
+    
     <div className="container text-center"> 
       <div className="row m-md-2">
         <div className="col-12">
@@ -46,6 +47,7 @@ function HelloWorld() {
           </Link>
         </div>
       </div>
+      <h2> Types of Space Exploration Technology</h2>
 
       <div className="row m-md-2">
         <div className="col-8 col-sm-12 col-md-5 col-lg-3">
@@ -73,22 +75,22 @@ function HelloWorld() {
         </div>
       </div>
       
-      <h1 className="mt-4"> Overview </h1>
+      <h1 className="mt-4"> Overview on Space Technology</h1>
       <div className="container-fluid d-flex justify-content-center align-items-center">
         <div className="row justify-content-center">
-          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(255,255,255,0.1)", color: "white" }}>
+          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(0, 0, 0, 0.58)", color: "white" }}>
             <div className="card-body">
               <p className="card-text">Humans have always wanted to travel and see the stars, but after humans sent the first Satellite named "Sputnik", space seemed closer to our reach.</p>
             </div>
           </div>
 
-          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(255,255,255,0.1)", color: "white" }}>
+          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(0, 0, 0, 0.58)", color: "white" }}>
             <div className="card-body">
               <p className="card-text">Space Exploration has developed exponentially over the years, not only have humans visited the moon, but we are also trying to visit other space objects, such as Mars. We as well developed high tech telescopes to look at the universe around us.</p>
             </div>
           </div>
 
-          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(255,255,255,0.1)", color: "white" }}>
+          <div className="card col-12 col-md-3 m-2" style={{ width: "18rem", backgroundColor: "rgba(0, 0, 0, 0.58)", color: "white" }}>
             <div className="card-body">
               <p className="card-text">Space Exploration is always learning something new about the stars around us, and new technologies are being invented to reach our goals and satisfy our curiosity.</p>
             </div>

@@ -40,8 +40,15 @@ function LargeTech() {
           </div>
           <div className="col-12 col-md-6 order-1 order-md-2">
             <img src={jamesWebImg} alt="James Webb Telescope" width="500px" className="img-fluid mx-auto d-block rounded" />
+            
           </div>
+          
         </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
+                      Back to Main Page
+                    </Link>
+                  </div>
       </div>
     </div>
   );

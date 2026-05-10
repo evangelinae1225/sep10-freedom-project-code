@@ -29,8 +29,14 @@ function BioTech() {
             <p>Tissue Chips were originally made for biological research to test things such as the effect of drugs on the human body, without using actual people directly, but it was eventually led to being used by NASA to study the effects cells have in space.</p>
             <p>These are better than some other Chip models because they use real human cells to study, which makes it more authentic.</p>
           </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
+              Back to Main Page
+            </Link>
+          </div>
         </div>
       </div>
+      
     </div>
   );
 }

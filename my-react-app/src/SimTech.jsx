@@ -21,7 +21,7 @@ function SimTech() {
           </div>
           <div className="col-12 col-md-6 text-start">
             <p> 
-              <a href="https://spaceengine.org/" target="_blank" rel="noreferrer" style={{ color: '#0dcaf0' }}>Space Engine</a> 
+              <a href="https://spaceengine.org/" target="_blank" rel="noreferrer" style={{ color: '#0dcaf0' }}>Space Engine </a> 
               is a virtual simulation where you can explore space, land on any planet, and even alter the speed of time.
             </p>
             <p> This app is perfect for anyone wanting to explore space and answer questions they may have, such as what would happen if Earth were as big as Jupiter?</p>
@@ -41,6 +41,11 @@ function SimTech() {
             <img src={nasaEyesImg} alt="NASA's Eyes" width="400px" className="img-fluid mx-auto d-block rounded" />
           </div>
         </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
+                      Back to Main Page
+                    </Link>
+                  </div>
       </div>
     </div>
   );

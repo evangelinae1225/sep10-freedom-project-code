@@ -35,6 +35,11 @@ function FutureTech() {
             <img src={spaceship} alt="Spaceship" width="500px" className="img-fluid" />
           </div>
         </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
+                      Back to Main Page
+                    </Link>
+                  </div>
       </div>
     </div>
   );
