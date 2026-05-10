@@ -40,7 +40,7 @@ function HelloWorld() {
   return (
     
     <div className="container text-center"> 
-      <div className="row m-md-2">
+      <div className="row m-md-2 justify-content-center">
         <div className="col-12">
           <Link to="/"> 
             <img src={freedom} alt="Freedom Project Logo" width="250px" className="mx-auto d-block"/> 
@@ -49,7 +49,7 @@ function HelloWorld() {
       </div>
       <h2> Types of Space Exploration Technology</h2>
 
-      <div className="row m-md-2">
+      <div className="row m-md-2 justify-content-center">
         <div className="col-8 col-sm-12 col-md-5 col-lg-3">
           <Link to="/large-tech"> 
             <img src={large} alt="Large Technology" width="250px" className="mx-auto d-block"/> 
