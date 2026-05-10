@@ -7,7 +7,7 @@ function FutureTech() {
   return (
     <div className="container-fluid bg-1 min-vh-100" id="home" style={{ color: '#ffffff' }}>
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <Link className="navbar-brand" to="/">Freedom Project</Link>
+        <Link className="navbar-brand" to="/">Space Exploration</Link>
       </nav>
 
       <h1 className="text-center">Future-Tech</h1>
