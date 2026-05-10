@@ -12,7 +12,7 @@ import bio from './assets/logos/bio-tech.png';
 import future from './assets/logos/future-tech.png';
 import large from './assets/logos/large-tech.png';
 import sim from './assets/logos/simslogo.png';
-import freedom from './assets/logos/freedomlogo2.png';
+import freedom from './assets/logos/Set.png';
 
 // Webpages 
 import FutureTech from './FutureTech'; 
